@@ -39,6 +39,13 @@ Trabajo final del curso II-0806 Metrología y Normalización. Empresa e instrume
 - El apartado **ISO 9001:2015 7.1.5.2** es un **candidato de requisito normativo**: deben presentarlo a la profesora para su aprobación, como pide la guía del trabajo final. La guía ILAC-G24/OIML D 10 es referencia técnica, no periodicidad obligatoria.
 - **Seguridad:** sistema local para demostración, sin HTTPS, roles empresariales, CSRF, copias automatizadas, controles de edición concurrente ni seguridad para Internet. **No publicar en Internet** sin trabajo adicional. Cambia la contraseña de demostración antes de utilizar datos no ficticios.
 
+## Versión Streamlit (publicada en internet)
+
+- `streamlit_app.py`: misma plataforma con interfaz Streamlit. Usa exactamente los mismos cálculos, reglas y base de datos de `app.py`.
+- Ejecutar localmente: `pip install -r requirements.txt` y luego `streamlit run streamlit_app.py`.
+- Publicar: en share.streamlit.io → *Create app* → repositorio `Metro`, rama `main`, archivo principal `streamlit_app.py`.
+- En Streamlit Community Cloud la base `metrocal.sqlite3` se reinicia cuando la app se reinicia o se actualiza: sirve para demostración, no para guardar datos permanentes.
+
 ## Estructura del proyecto
 
 - `app.py`: servidor local, base SQLite, API y métodos de cálculo (biblioteca estándar de Python).
