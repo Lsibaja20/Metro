@@ -1,0 +1,10 @@
+METROCAL WEB 1.5 — VS CODE (WINDOWS)
+
+1. Abrir esta carpeta en Visual Studio Code.
+2. Terminal > Nueva terminal.
+3. Ejecutar: py app.py
+4. El navegador se abre automáticamente en http://127.0.0.1:8765
+5. Usuario: admin  |  Contraseña: MetroCal2026!
+6. Ctrl+C para cerrar.
+
+Si el puerto está ocupado, cerrar la versión anterior con Ctrl+C.
